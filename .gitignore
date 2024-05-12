@@ -1,52 +1,33 @@
-# Prerequisites
-*.d
-
-# Object files
+# Compiled Object Files
 *.o
-*.ko
-*.obj
-*.elf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Executable Binaries
+array
 
-# Precompiled Headers
-*.gch
-*.pch
+# Editor Backup Files
+*~
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Editor Temporary Files
+.*.swp
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# Build Output Directories
+build/
+dist/
 
-# Executables
-*.exe
+# IDE or Editor Configuration Files
+.vscode/
+.vim/
+
+# Dependency Directories
+lib/
+vendor/
+
+# Logs and Debug Files
+*.log
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# User-Specific Files
+.DS_Store
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Environment-Specific Files
+.env
