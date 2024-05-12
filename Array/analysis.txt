@@ -1,0 +1,20 @@
+Pros:
+Random Access: Elements can be accessed directly using their index, providing constant time complexity for access.
+Contiguous Memory Allocation: Array elements are stored in contiguous memory locations, making it efficient for CPU cache utilization and memory access.
+Simple Implementation: Arrays are straightforward to implement and widely supported in programming languages.
+Memory Efficiency: Requires minimal overhead for storing elements, as only the data itself needs to be stored without any additional metadata.
+----------------------------------------
+Cons:
+Fixed Size: Arrays have a fixed size, making it challenging to dynamically resize them without incurring overhead.
+Insertion and Deletion: Insertion and deletion operations can be inefficient, especially when performed in the middle of the array, requiring shifting of elements.
+Memory Wastage: If the array size is larger than needed, it can lead to memory wastage.
+Inflexible Data Types: Arrays typically store elements of the same data type, making it less flexible compared to other data structures like lists.
+----------------------------------------
+Time Complexity:
+Access (Best/Worst/Average): O(1) - Constant time complexity for accessing elements by index.
+Search (Best/Worst/Average): O(n) - Linear time complexity for searching an element, as it may require traversing the entire array.
+Insertion (Best/Worst/Average): O(n) - Linear time complexity for inserting an element at any position, as it may require shifting subsequent elements.
+Deletion (Best/Worst/Average): O(n) - Linear time complexity for deleting an element, as it may require shifting subsequent elements.
+----------------------------------------
+Space Complexity:
+Space Complexity: O(n) - Linear space complexity, as it requires contiguous memory allocation for storing elements.
